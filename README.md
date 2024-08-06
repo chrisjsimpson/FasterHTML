@@ -19,7 +19,8 @@ I want:
 Inspect fastHTML and extract the *essence* of python types for html
 elements and run with that.
 
-Don't want this to be starlette-only because why should it be? Should also drop into Flask easily or and python web framework.
+Don't want this to be starlette-only because why should it be? Should also drop into Flask easily or any python web framework.
 
 
-Inspired by FastHTML, see https://blog.karmacomputing.co.uk/fasthtml-getting-started-comparison-with-flask/
+- Inspired by FastHTML, see https://blog.karmacomputing.co.uk/fasthtml-getting-started-comparison-with-flask/
+- Needs [minimalCD](https://github.com/KarmaComputing/minimalcd)
