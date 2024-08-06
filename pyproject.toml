@@ -1,0 +1,32 @@
+[project]
+name = "fasterhtml"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "chrisjsimpson", email = "chris.j.simpson@live.co.uk" }
+]
+dependencies = [
+    "starlette>=0.38.2",
+    "sqlalchemy>=2.0.32",
+    "uvicorn>=0.30.5",
+    "databases>=0.9.0",
+    "aiosqlite>=0.20.0",
+    "alembic>=1.13.2",
+    "astor>=0.8.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fasterhtml"]
